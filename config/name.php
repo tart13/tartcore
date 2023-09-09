@@ -1,3 +1,3 @@
 <?php 
-$gdpsname = "GDPS"; // GDPS name
+$gdpsname = "GDPS"; // GDPS NAME
 ?>
