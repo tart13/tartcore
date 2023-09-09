@@ -1,6 +1,6 @@
 <!-- Taken from IoCore by woidzero !-->
 <?php 
-include '../include/lib/mainLib.php';
+include '../incl/lib/mainLib.php';
 include '../config/name.php';
 
 $gs = new mainLib();
@@ -13,8 +13,8 @@ $acc = $gs->getCount("acc");
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
-<link href="../include/components/css/styles.css" rel="stylesheet">
-<link href="../include/components/images/tools_favicon.png" rel="shortcut icon">
+<link href="../incl/components/css/styles.css" rel="stylesheet">
+<link href="../incl/components/images/tools_favicon.png" rel="shortcut icon">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <title><?php echo $gdpsname ?> Tools [IoCore]</title>
